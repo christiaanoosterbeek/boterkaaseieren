@@ -39,3 +39,9 @@ def randomplayer():
 def trainAndPlot():
   random_agent = RandomAgent()
   start(player_x=randomAgent)
+
+    
+def Option4():
+  my_agent = MyAgent()
+  my_agent = load('MyAgent_3000')
+  start(player_x=my_agent)
