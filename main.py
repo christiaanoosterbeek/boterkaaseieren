@@ -28,3 +28,10 @@ menu_options = {
 def print_menu():
     for key in menu_options.keys():
         print (key, '--', menu_options[key] )
+
+def vsPlayer():
+  start()
+
+def randomplayer():
+  randomAgent = RandomAgent()
+  start(player_x=randomAgent)
