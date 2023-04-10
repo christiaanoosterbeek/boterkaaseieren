@@ -58,3 +58,16 @@ def trainAndPlot():
       trainings=100,
       validations=1000)
  print_menu()
+
+option = int(input('Kies een optie: '))
+
+if option == 1:
+   vsPlayer()
+elif option == 2:
+    randomplayer()
+elif option == 3:
+    trainAndPlot()
+elif option == 4:
+    Option4()
+else:
+    print('Geen optie kies een nummer tussen de 1 en 4.')
