@@ -11,3 +11,9 @@ class MyAgent(MLAgent):
             reward = 0
         return reward
 
+class RandomAgent(EvaluationAgent):
+  def evaluate(self, board, my_symbol, opponent_symbol):
+    getal = 1 
+    if can_win(board, opponent_symbol):
+      getal = getal = 1000
+    return getal
