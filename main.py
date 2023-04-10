@@ -24,3 +24,7 @@ menu_options = {
     3: 'De tegenstander trainen en plotten',
     4: 'Tegen een slimme tegenstander spelen',
 }
+
+def print_menu():
+    for key in menu_options.keys():
+        print (key, '--', menu_options[key] )
