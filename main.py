@@ -17,3 +17,10 @@ class RandomAgent(EvaluationAgent):
     if can_win(board, opponent_symbol):
       getal = getal = 1000
     return getal
+
+menu_options = {
+    1: 'Speel tegen een ander persoon',
+    2: 'Tegen een domme tegenstander spelen',
+    3: 'De tegenstander trainen en plotten',
+    4: 'Tegen een slimme tegenstander spelen',
+}
