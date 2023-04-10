@@ -45,3 +45,16 @@ def Option4():
   my_agent = MyAgent()
   my_agent = load('MyAgent_3000')
   start(player_x=my_agent)
+
+def trainAndPlot():
+  random.seed(1)
+  my_agent = MyAgent()
+  random_agent = RandomAgent()
+   
+  train_and_plot(
+      agent=my_agent,
+      validation_agent=random_agent,
+      iterations=50,
+      trainings=100,
+      validations=1000)
+ print_menu()
