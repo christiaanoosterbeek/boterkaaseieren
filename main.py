@@ -35,3 +35,7 @@ def vsPlayer():
 def randomplayer():
   randomAgent = RandomAgent()
   start(player_x=randomAgent)
+
+def trainAndPlot():
+  random_agent = RandomAgent()
+  start(player_x=randomAgent)
